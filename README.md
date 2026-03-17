@@ -1,4 +1,4 @@
-# llm-pal-math-solver
+# LLM-pal-math-solver
 
 LLM과 PAL(Program-aided Language Models)을 이용해 자연어 수학 문제를 Python 코드로 변환하고, 이를 검증 및 실행해 답을 구하는 캡스톤 프로젝트입니다.
 
