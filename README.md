@@ -76,14 +76,3 @@ python scripts/evaluate_gsm8k_pal.py --limit 200 --model gpt-5-mini --output gsm
 
 - dataset: `data/grade-school-math/grade_school_math/data/test.jsonl`
 - prompt: `prompts/prompt_en.txt`
-
-## 현재 상태
-
-- `app.py`는 아직 실제 서비스 수준의 완성형 웹앱은 아니며, 데모 성격이 강합니다.
-- 평가 스크립트는 GSM8K 기준으로 Direct vs PAL 비교 실험을 수행할 수 있습니다.
-- 공개 저장소 업로드를 위해 코드와 로컬 전용 산출물을 분리해 둔 상태입니다.
-
-## 주의사항
-
-- API 키는 코드에 직접 넣지 말고 환경 변수로 관리하는 것이 좋습니다.
-- `local_only/` 아래 파일은 개인 작업 기록용이므로 공개 커밋 대상이 아닙니다.
